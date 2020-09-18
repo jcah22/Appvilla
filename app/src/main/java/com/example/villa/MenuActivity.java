@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -25,7 +26,6 @@ public class MenuActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
-       // mDialog = new SpotsDialog.Builder().setContext(MenuActivity.this).setMessage("Espere un momento...").build();
 
 
         getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
@@ -43,11 +43,8 @@ public class MenuActivity extends AppCompatActivity {
         card1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-
                 Intent intentEnamoro = new Intent(MenuActivity.this, EnamoroActivity.class);
                 startActivity(intentEnamoro);
-
 
             }
         });
@@ -55,8 +52,9 @@ public class MenuActivity extends AppCompatActivity {
         card2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intentVillalpando = new Intent(MenuActivity.this, VillalpandoActivity.class);
+                Intent intentVillalpando = new Intent(MenuActivity.this,argollas.class);
                 startActivity(intentVillalpando);
+
             }
         });
 
@@ -64,7 +62,7 @@ public class MenuActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intentMosha = new Intent(MenuActivity.this, MoshaActivity.class);
+                Intent intentMosha = new Intent(MenuActivity.this, EnamoroActivity.class);
                 startActivity(intentMosha);
             }
         });

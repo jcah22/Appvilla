@@ -1,6 +1,7 @@
 package com.example.villa;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 
 public class MoshaActivity extends AppCompatActivity {
@@ -9,5 +10,8 @@ public class MoshaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mosha);
+
+
+
     }
 }

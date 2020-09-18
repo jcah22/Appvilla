@@ -1,3 +1,5 @@
+package com.example.villa;
+
 public class Enamoro {
 
     private String codigo;
@@ -12,7 +14,7 @@ public class Enamoro {
         this.foto = foto;
     }
 
-    public Enamoro() {
+    public Enamoro(String cl1101, String descripcion, String peso, String s) {
     }
 
     public String getCodigo() {

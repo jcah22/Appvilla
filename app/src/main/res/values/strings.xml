@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">D\'Villalpando</string>
     <string name="dvillalpando">D\'VILLALPANDO</string>
+    <string name="detalle"> El peso promedio en cada argolla es equivalente al #9 </string>
 </resources>
