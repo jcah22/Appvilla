@@ -40,7 +40,7 @@ public class argollas extends AppCompatActivity {
 
                // StyleableToast.makeText(getApplicationContext(), "Argollas 14 Kilates...", Toast.LENGTH_LONG, R.style.mytoast).show();
 
-                Toast.makeText(argollas.this, "Argollas 14 Kilates...", Toast.LENGTH_SHORT).show();
+                Toast.makeText(argollas.this, "Argollas 14 Kilates", Toast.LENGTH_SHORT).show();
             }
         });
     }
