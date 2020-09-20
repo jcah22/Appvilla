@@ -19,8 +19,8 @@ public class DetalleActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detalle);
 
-        foto = findViewById(R.id.imgDetalle);
-        sku = findViewById(R.id.txtsku);
+        foto = findViewById(R.id.imgDetalleArgolla);
+        sku = findViewById(R.id.codigoDetalle);
 
         StyleableToast.makeText(this, "El peso promedio en cada argolla es equivalente al #9", Toast.LENGTH_LONG, R.style.mytoast).show();
         Datos obj = (Datos) getIntent().getExtras().getSerializable("objeto");

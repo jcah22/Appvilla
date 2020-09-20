@@ -24,16 +24,22 @@ public class EnamoroActivity extends AppCompatActivity {
         actionBar.hide();
 
 
+
+
         recyclerViewEnamoro = findViewById(R.id.ReciclerEnamoro);
         recyclerViewEnamoro.setLayoutManager(new LinearLayoutManager(this));
         adaptadorEnamoro = new ReciclerViewAdapter(obtenerEnamro());
         recyclerViewEnamoro.setAdapter(adaptadorEnamoro);
 
+
+
+
+
     }
 
     public List<Enamoro> obtenerEnamro(){
 
-       // String cl1101 = "https://firebasestorage.googleapis.com/v0/b/villa-12978.appspot.com/o/Enamoro%2F10k%2Fcl1101.jpg?alt=media&token=86c4bfe8-cd77-4ef8-9145-b20a620e29c5"
+
 
         List<Enamoro> enamoros = new ArrayList<>();
 
@@ -74,12 +80,7 @@ public class EnamoroActivity extends AppCompatActivity {
         enamoros.add(new Enamoro("CL1114B","Argolla 6mm 10 Kilates","P.P: 1.8 gr",R.drawable.cl1114b));
         enamoros.add(new Enamoro("CL004COCP-41","Argolla 6mm 10 Kilates","P.P: 1.8 gr",R.drawable.cl004cocp_41));
 
-
-
         return enamoros;
-
-
-
 
 
     }

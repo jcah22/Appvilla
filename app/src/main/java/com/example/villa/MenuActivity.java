@@ -43,7 +43,7 @@ public class MenuActivity extends AppCompatActivity {
         card1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intentEnamoro = new Intent(MenuActivity.this, EnamoroActivity.class);
+                Intent intentEnamoro = new Intent(MenuActivity.this, argollas.class);
                 startActivity(intentEnamoro);
 
             }
@@ -52,7 +52,7 @@ public class MenuActivity extends AppCompatActivity {
         card2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intentVillalpando = new Intent(MenuActivity.this,argollas.class);
+                Intent intentVillalpando = new Intent(MenuActivity.this,VillalpandoActivity.class);
                 startActivity(intentVillalpando);
 
             }
@@ -62,7 +62,7 @@ public class MenuActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intentMosha = new Intent(MenuActivity.this, EnamoroActivity.class);
+                Intent intentMosha = new Intent(MenuActivity.this, MoshaActivity.class);
                 startActivity(intentMosha);
             }
         });

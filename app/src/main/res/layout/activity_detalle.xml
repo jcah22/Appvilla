@@ -9,7 +9,7 @@
 
 
     <TextView
-        android:id="@+id/txtsku"
+        android:id="@+id/codigoDetalle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -27,12 +27,12 @@
 
 
     <com.jsibbold.zoomage.ZoomageView
-        android:id="@+id/imgDetalle"
+        android:id="@+id/imgDetalleArgolla"
         android:layout_width="403dp"
         android:layout_height="606dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtsku"
+        app:layout_constraintTop_toBottomOf="@+id/codigoDetalle"
         app:srcCompat="@drawable/enamoro"
         app:zoomage_animateOnReset="true"
         app:zoomage_autoCenter="true"

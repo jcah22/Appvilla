@@ -23,8 +23,8 @@ public class detalleArgollaActivity extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
 
-        foto = findViewById(R.id.imgDetalle);
-        sku = findViewById(R.id.txtsku);
+        foto = findViewById(R.id.imgEnamoro);
+        sku = findViewById(R.id.txtcodigo);
 
         StyleableToast.makeText(this, "El peso promedio en cada argolla es equivalente al #9", Toast.LENGTH_LONG, R.style.mytoast).show();
         Datos obj = (Datos) getIntent().getExtras().getSerializable("objeto");

@@ -43,7 +43,7 @@ public class Adaptador extends BaseAdapter {
         vista  = inflate.inflate(R.layout.itemlistview,null);
 
         ImageView imagen = vista.findViewById(R.id.imagenenamoro);
-        TextView sku = vista.findViewById(R.id.txtsku);
+        TextView sku = vista.findViewById(R.id.codigoDetalle);
         TextView descripcion = vista.findViewById(R.id.txtdescripcion);
         TextView pesopromedio = vista.findViewById(R.id.txtpp);
 

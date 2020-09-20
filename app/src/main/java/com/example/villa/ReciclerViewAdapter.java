@@ -10,6 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
@@ -26,6 +27,11 @@ public class ReciclerViewAdapter extends RecyclerView.Adapter<ReciclerViewAdapte
 
         private TextView codigo,descripcion,peso;
         ImageView foto;
+        CardView cv;
+
+
+
+
 
 
         public ViewHolder(@NonNull View itemView) {
@@ -34,6 +40,7 @@ public class ReciclerViewAdapter extends RecyclerView.Adapter<ReciclerViewAdapte
             descripcion = itemView.findViewById(R.id.txtDescripcion);
             peso = itemView.findViewById(R.id.txtPeso);
             foto = itemView.findViewById(R.id.imgEnamoro);
+            cv = itemView.findViewById(R.id.cardArgollaId);
 
 
 
@@ -67,6 +74,8 @@ public class ReciclerViewAdapter extends RecyclerView.Adapter<ReciclerViewAdapte
         holder.foto.setImageResource(enamoroItem.get(position).getFoto());
 
 
+
+
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -84,6 +93,17 @@ public class ReciclerViewAdapter extends RecyclerView.Adapter<ReciclerViewAdapte
 
             }
         });
+
+        holder.cv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Toast.makeText(view.getContext(), "Detalle Argollassss 10k", Toast.LENGTH_SHORT).show();
+
+
+            }
+        });
+
 
 
     }
